@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 # ====================
+# Downloads Dir Watcher
 # Environment:
 #   Linux Ubuntu 12.04 LTS
 # Dependencies:
@@ -13,7 +14,6 @@ import logging
 import pynotify
 import time
 import sys
-import requests
 
 
 logging.basicConfig(filename = os.path.join("/home/grzhan/Util/log/dir_watch.log"),
@@ -32,12 +32,6 @@ try:
 	logging.info('The Program Started.')
 
 	while True:
-		# PLUS : Refresh OSC info in the remote server
-		try:
-			requests.get("http://www.shuosc.org/ext/renren_update.php");
-		except BaseException:
-			pass
-
 		li = os.listdir('/home/grzhan/Downloads')
 		count = len([x for x in li if x[0]!='.'])
 		hidden = len(li) - count
