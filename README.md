@@ -28,6 +28,8 @@ MySnippets
 
 jquery需要，因为ele.me自带所以没有dotjs的话打开浏览器的console可以直接载入使用
 
+* TODO ： 因为之前不会用deferred & promise 来处理同步异步，所以之后代码应该会有所改进 *
+
 `$.getScript('https://rawgithub.com/grzhan/MySnippets/master/ele.me.js',function(){main();});`
 
 [1]: http://image-hosting.qiniudn.com/notify.png
