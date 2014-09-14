@@ -28,9 +28,22 @@ MySnippets
 
 jquery需要，因为ele.me自带所以没有dotjs的话打开浏览器的console可以直接载入使用
 
-* TODO ： 因为之前不会用deferred & promise 来处理同步异步，所以之后代码应该会有所改进 *
+*TODO ： 因为之前不会用deferred & promise 来处理同步异步，所以之后代码应该会有所改进*
 
 `$.getScript('https://rawgithub.com/grzhan/MySnippets/master/ele.me.js',function(){main();});`
+
+
+### cheatsheet.py
+
+简单的cheatsheet开启脚本
+
+依赖Python库： docopt,sh (可使用 pip install 安装)
+
+因为不同操作系统的PDF、图片等查看程序会不一致，当前只确保在Ubuntu 12.04上运行
+
+	用法： cheatsheet.py -o <language>
+
+
 
 [1]: http://image-hosting.qiniudn.com/notify.png
 [2]: http://image-hosting.qiniudn.com/elems_js.png
