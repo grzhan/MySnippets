@@ -5,7 +5,7 @@ MySnippets
 
 ## 介绍
 
-### downloads\_directory\_watcher
+### 1. downloads\_directory\_watcher
 
 一个在Ubuntu环境下用来提示自己整理下载文件夹的python脚本, 利用了 libnotify
 
@@ -18,7 +18,7 @@ MySnippets
 另外关于开机自动启动的次序，要等到图形界面开启后再启动这个脚本。
 
 
-### ele.me.js
+### 2. ele.me.js
 
 ![eleme_js.png][2]
 
@@ -33,7 +33,7 @@ jquery需要，因为ele.me自带所以没有dotjs的话打开浏览器的consol
 `$.getScript('https://rawgithub.com/grzhan/MySnippets/master/ele.me.js',function(){main();});`
 
 
-### cheatsheet.py
+### 3. cheatsheet.py
 
 简单的cheatsheet开启脚本
 
